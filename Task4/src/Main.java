@@ -15,11 +15,6 @@ public class Main {
         new Student("Tushar Garg", 3)));
         CourseDb courseDb = new CourseDb();
         courseDb.addCourse(courses);
-        // students.get(0).addCourse(courseDb.getCourse(1));
-        
-        // for (Student student : students) {
-        //     System.out.println(student);
-        // }
         
         System.out.println("Available courses: ");
         System.out.println(courseDb);
